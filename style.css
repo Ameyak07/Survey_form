@@ -1,0 +1,43 @@
+body{
+    background-image: url(bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size:120%;
+    background-image;
+    isolation: isolate;
+    padding: 120px;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(15, 1, 1);
+}
+
+h3{
+    font-family:cursive;
+    text-align: center;
+    color:rgb(15,1,1);
+}
+
+form{
+    font-family: sans-serif;
+    border:2px solid black;
+    padding-left:30px;
+    padding-top:50px;
+    background-color:blue;
+    opacity: .8;
+    color:white;
+   }
+  
+   .button {
+    background-color: #27cc06;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1>Survey Form</h1>
+     <h3>thankyou for taking the time to help us improve the platform</h3>
+
+     <form>
+        <label for="name">Name :</label><br>
+        <input type="text" id="name" name="name" size="175" required><br><br>
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" size="175" required><br><br>
+        <label for="age">Age (optional) :</label><br>
+        <input type="text" id="age" name="age" size="175" required><br><br>
+        <label for="role">Which option best describes your current role?</label><br>
+        <select id="role" name="role" >
+            <option value="student">Student</option>
+            <option value="full time job">Full Time Job</option>
+            <option value="full time learner">Full Time Learner</option>
+            <option value="prefer not to say">Prefer Not To Say</option>
+            <option value="other">other</option>
+        </select><br><br>
+        <label for="recommend">Would you recommend Our Website to a Friend?</label><br>
+        <input type="radio" id="definitely" name="value" value="definitely">
+        <label for="definitely">Definitely</label><br><br>
+        <input type="radio" id="maybe" name="value" value="maybe">
+        <label for="maybe">Maybe</label><br><br>
+        <input type="radio" id="not sure" name="value" value="not sure">
+        <label for="not sure">Not Sure</label><br><br>
+
+        <label for="review">What would you like to see improved? (check all that apply)</label><br>
+        <input type="checkbox" id="projects" name="projects" value="projects">
+        <label for="projects">Projects</label><br><br>
+        <input type="checkbox" id="projects" name="data visualization" value="data visualization">
+        <label for="data visualization">Data Visualization</label><br><br>
+        <input type="checkbox" id="challenges" name="challenges" value="challenges">
+        <label for="challenges">Challenges</label><br><br>
+        <input type="checkbox" id="open source community" name="open source community" value="open source community">
+        <label for="open source community">Open Source Community</label><br><br>
+        <input type="checkbox" id="vidoes" name="vidoes" value="vidoes">
+        <label for="vidoes">Vidoes</label><br><br>
+        <input type="checkbox" id="wiki" name="wiki" value="wiki">
+        <label for="wiki">Wiki</label><br><br>
+        <input type="checkbox" id="forum" name="forum" value="forum">
+        <label for="forum">Forum</label><br><br>
+        <input type="checkbox" id="additional course" name="additional course" value="additional course">
+        <label for="additional course">Additional Course</label><br><br>
+
+        <label for="info">Any comments or Suggestions?</label><br>
+        <textarea rows="8" cols="100"></textarea><br><br>
+        <button class="button">Submit</button>
+     </form>
+
+
+</body>
+</html>
